@@ -1,0 +1,58 @@
+<wpml-config>
+    <admin-texts>
+		<key name='theme_mods_novelpro'>
+			<!-- slider -->
+			<key name='first_slider_heading' />
+			<key name='first_slider_desc' />
+			<key name='first_button_text' />
+			<key name='second_slider_heading' />
+			<key name='second_slider_desc' />
+			<key name='second_button_text' />
+			<key name='third_slider_heading' />
+			<key name='third_slider_desc' />
+			<key name='third_button_text' />
+			<key name='fourth_slider_heading' />
+			<key name='fourth_slider_desc' />
+			<key name='fourth_button_text' />
+			<key name='fifth_slider_heading' />
+			<key name='fifth_slider_desc' />
+			<key name='fifth_button_text' />
+			<key name='sixth_slider_heading' />
+			<key name='sixth_slider_desc' />
+			<key name='sixth_button_text' />
+                        <key name='video_slider_heading' />
+                        <key name='video_slider_desc' />
+                        <key name='video_button_text' />
+                        <key name='video_button2_text' />
+			<!-- Three Column Settings -->
+			<key name='col_heading' />
+			<key name='col_sub' />
+			<!-- Portfolio Heading and Sub-heading -->
+			<key name='portfolio_head_' />
+			<key name='portfolio_desc_' />
+			<!-- Testimonial -->
+			<key name='testimonial_heading' />	
+			<!-- Blog -->
+			<key name='blog_head_' />
+			<key name='blog_desc_' />
+			<!-- team -->
+			<key name='team_head_' />
+			<key name='team_desc_' />
+			<!-- Pricing -->
+			<key name='pricing_head_' />
+			<key name='pricing_desc_' />
+			<!-- Brand -->
+			<key name='brand_head_' />
+			<key name='brand_desc_' />
+			<!-- Woocommerce -->
+			<key name='woo_head_' />
+			<key name='woo_desc_' />
+			<!-- Lead Form -->
+			<key name='cf_head_' />
+			<key name='cf_desc_' />
+			<key name='cf_shtcd_' />
+			<!-- footer -->
+			<key name='footertext' />	
+		</key>
+    </admin-texts>
+</wpml-config>
