@@ -1,10 +1,10 @@
 == Theme: Novel Pro ==
 Contributors: ThemeHunk
 Tags: right-sidebar, custom-menu, editor-style, featured-images, translation-ready, flexible-header, post-formats, sticky-post, theme-options.
-Requires at least: WordPress 4.7
+Requires at least: WordPress 5.0
 Requires PHP: 5.6
-Tested up to: 5.8.2
-Stable tag: 3.0.8
+Tested up to: 5.9
+Stable tag: 3.0.9
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -24,6 +24,9 @@ Yes, this theme is tested with latest version of WordPress, you can use it for y
 
 == Changelog ==
 = Theme Name NovelPro Responsive Theme=
+
+Version: 3.0.9
+* Animation issue in section scroll resolved.
 
 Version: 3.0.8
 * Import image url issue fixed.
@@ -318,8 +321,8 @@ Version: 3.0.7
 Theme Released
 
 == Upgrade Notice ==
-Version: 3.0.7
-* Readme file updated.
+Version: 3.0.9
+* Animation issue in section scroll resolved.
 
 == Resources ==
  

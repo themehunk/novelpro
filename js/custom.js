@@ -421,7 +421,7 @@ jQuery(document).ready(function() {
 
 
 /*------------wow animation------------*/
-if ( jQuery( "#animate" ).length ) {
+if ( jQuery( "#animate-css" ).length) {
 wow = new WOW(
       {
         animateClass: 'animated',
@@ -432,4 +432,4 @@ wow = new WOW(
       }
     );
     wow.init();
-}
+ }
