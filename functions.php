@@ -72,7 +72,7 @@ require_once( get_template_directory() . '/import/themehunk.php' );
 /* Styles Enqueue */
 /* ----------------------------------------------------------------------------------- */
 function novelpro_add_stylesheet() {
-    $section_animation = get_theme_mod('section_animation','');
+    $section_animation = get_theme_mod('section_animation',false);
     $rtl_enable = get_theme_mod('rtl','');
 	if (!is_admin()) {
     wp_enqueue_style( 'novelpro_font', '//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
@@ -101,7 +101,7 @@ add_action('wp_enqueue_scripts', 'novelpro_add_stylesheet');
 /* jQuery Enqueue */
 /* ----------------------------------------------------------------------------------- */
 function novelpro_wp_enqueue_scripts() {
-     $section_animation = get_theme_mod('section_animation','');
+     $section_animation = get_theme_mod('section_animation',false);
     if (!is_admin()) {
     wp_enqueue_script('jquery');
     wp_enqueue_script('classie', get_template_directory_uri() . '/js/classie.js', array('jquery'),'21032016', true);
