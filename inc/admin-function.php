@@ -124,7 +124,7 @@ $i = 1;
                 </div>
                     <a href="<?php echo esc_url($link); ?>"><h4 style="color:<?php echo esc_attr($titleclr); ?>"><?php echo esc_html($title); ?></h4></a>
                     <p class="text-muted" style="color:<?php echo esc_attr($titleclr); ?>"><?php echo esc_html($subtitle); ?></p>
-                    <p class="team-desc" style="color:<?php echo esc_attr($textclr); ?>"> <?php echo esc_html($textclr); ?></p>
+                    <p class="team-desc" style="color:<?php echo esc_attr($textclr); ?>"> <?php echo esc_html($text); ?></p>
                     <ul class="list-inline social-buttons">
                  <?php 
 if ( ! empty( $team_item->social_repeater ) ) :

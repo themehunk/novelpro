@@ -357,7 +357,7 @@ class Novelpro_Class_Repeater extends WP_Customize_Control {
 	 * Enqueue resources for the control
 	 */
 	public function enqueue() {
-		wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome/css/font-awesome.css', array(), '1.0.0' );
+		wp_enqueue_style('novelpro_font_awesome_old-cust', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", '', '', 'all');
 
 		wp_enqueue_style( 'open_customizer-repeater-admin-stylesheet', get_template_directory_uri() . '/customizer/repeater/style.css', array(), '1.0.0' );
 

@@ -4,7 +4,7 @@ Theme URI: www.themehunk.com/product/novelpro-single-page-theme/
 Author: The ThemeHunk Team 
 Author URI: www.themehunk.com 
 Description: The NovelPro Theme for WordPress is simple and beautiful with lots of customization options that can tweaked by customize Panel like logos, intro texts, multiple useful sections, section ordering, background image, color and overlay. NovelPro Theme supports Six widget areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images for posts and pages). It contain drag and drop section ordering, WooCommerce compatible. 
-Version: 3.0.9
+Version: 4.0.0
 License: GNU General Public License v2 or later
 License URI: license.txt 
 Tags: right-sidebar, custom-menu, editor-style, featured-images, translation-ready, flexible-header, post-formats, sticky-post, theme-options
@@ -507,6 +507,13 @@ background:transparent;
    vertical-align: middle;
   text-align: center;
   width:100%;
+}
+.novel-pro-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.novel-pro-flex-container .team3:nth-of-type(3n+1){
+    margin: 0 auto;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
 /* Safari only override */
@@ -5062,7 +5069,12 @@ max-width: 80%!important;
 }
 .home .contact_section .leadform-show-form.leadform-lite textarea{
   width:100%!important;  
-}}
+}
+.novel-pro-flex-container > *{
+        width: 100%;
+}
+
+}
 @media only screen and (max-width: 420px){
 .woocommerce-page.columns-2 ul.products li.product, .woocommerce.columns-2 ul.products li.product, .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product, .woocommerce-page.columns-4 ul.products li.product, .woocommerce.columns-4 ul.products li.product, .woocommerce-page.columns-5 ul.products li.product, .woocommerce.columns-5 ul.products li.product{
     width:100%;

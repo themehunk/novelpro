@@ -20,7 +20,7 @@
                 <?php } ?> 
             </div>
         </div>
-        <div class="row wow fadeInRight" data-wow-duration="2s">
+        <div class="row wow fadeInRight novel-pro-flex-container" data-wow-duration="2s">
            <?php
          novelpro_teams_content('novelpro_teams_content', 'get_team_default');
 

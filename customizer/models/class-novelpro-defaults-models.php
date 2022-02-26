@@ -216,7 +216,7 @@ public function get_testimonials_default() {
 						'title'     => esc_html__( 'Surbhi', 'novelpro' ),
 						'subtitle'  => esc_html__( 'Business Owner', 'novelpro' ),
 						'text'      => esc_html__( '"Nunc eu elementum libero. Etiam egestas leo eget urna ultrices, in finibus eros gravida. Donec scelerisque pulvinar dapibus. Nam pretium risus sed metus ultrices blandit. Pellentesque rhoncus est non nunc ultricies accumsan. Nullam gravida turpis et lacinia cursus. Fusce iaculis mattis consectetur."', 'novelpro' ),
-						'link'		=>	'Google.com',
+						'link'		=>	'#',
 						'id'        => 'customizer_repeater_56d7ea7f40d56',
 					),
 					array(
@@ -224,7 +224,7 @@ public function get_testimonials_default() {
 						'title'     => esc_html__( 'Nataliya', 'novelpro' ),
 						'subtitle'  => esc_html__( 'Artist', 'novelpro' ),
 						'text'      => esc_html__( '"Nunc eu elementum libero. Etiam egestas leo eget urna ultrices, in finibus eros gravida. Donec scelerisque pulvinar dapibus. Nam pretium risus sed metus ultrices blandit. Pellentesque rhoncus est non nunc ultricies accumsan. Nullam gravida turpis et lacinia cursus. Fusce iaculis mattis consectetur."', 'novelpro' ),
-						'link'		=>	'Google.com',
+						'link'		=>	'#',
 						'id'        => 'customizer_repeater_56d7ea7f40d66',
 					),
 
@@ -233,7 +233,7 @@ public function get_testimonials_default() {
 						'title'     => esc_html__( 'Ramedrin', 'novelpro' ),
 						'subtitle'  => esc_html__( 'Business Owner', 'novelpro' ),
 						'text'      => esc_html__( '"Nunc eu elementum libero. Etiam egestas leo eget urna ultrices, in finibus eros gravida. Donec scelerisque pulvinar dapibus. Nam pretium risus sed metus ultrices blandit. Pellentesque rhoncus est non nunc ultricies accumsan. Nullam gravida turpis et lacinia cursus. Fusce iaculis mattis consectetur."', 'novelpro' ),
-						'link'		=>	'Google.com',
+						'link'		=>	'#',
 						'id'        => 'customizer_repeater_56d7ea7f40d56',
 					),
 				)
