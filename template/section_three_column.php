@@ -21,7 +21,7 @@
                 <?php } ?>
             </div>
         </div>
-        <div class="row text-center servies wow fadeInRight" data-wow-duration="1s">
+        <div class="row text-center servies wow fadeInRight novel-pro-flex-container" data-wow-duration="1s">
            <?php
          novelpro_service_content('novelpro_service_content', 'get_feature_default');
 
