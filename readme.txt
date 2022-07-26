@@ -3,8 +3,8 @@ Contributors: ThemeHunk
 Tags: right-sidebar, custom-menu, editor-style, featured-images, translation-ready, flexible-header, post-formats, sticky-post, theme-options.
 Requires at least: WordPress 5.0
 Requires PHP: 5.6
-Tested up to: 5.9
-Stable tag: 4.0.0
+Tested up to: 6.1
+Stable tag: 4.0.1
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -24,6 +24,9 @@ Yes, this theme is tested with latest version of WordPress, you can use it for y
 
 == Changelog ==
 = Theme Name NovelPro Responsive Theme=
+Version: 4.0.1
+* Theme tested with lates WordPres.
+
 Version: 4.0.0
 * Section style issue resolved.
 
