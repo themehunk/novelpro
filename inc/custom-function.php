@@ -249,7 +249,7 @@ function NovelPro_image_resize($img_url, $width, $height, $crop = true, $quality
  * @param type $jpeg_quality
  * @return type 
  */
-function NovelPro_thumbnail_resize($attach_id = null, $img_url = null, $width, $height, $crop = false, $jpeg_quality = 90) {
+function NovelPro_thumbnail_resize($attach_id = null, $img_url = null, $width='', $height='', $crop = false, $jpeg_quality = 90) {
     // this is an attachment, so we have the ID
     if ($attach_id) {
         $image_src = wp_get_attachment_image_src($attach_id, 'full');
