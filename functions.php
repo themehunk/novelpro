@@ -59,7 +59,6 @@ add_theme_support( 'custom-header', $defaults );
         // enqueue the javascript that performs in-link comment reply fanciness
         wp_enqueue_script( 'comment-reply' ); 
     }
-    remove_theme_support( 'widgets-block-editor' );
 
 
 }
