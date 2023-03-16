@@ -4,7 +4,7 @@ Tags: right-sidebar, custom-menu, editor-style, featured-images, translation-rea
 Requires at least: WordPress 5.0
 Requires PHP: 5.6
 Tested up to: 6.1
-Stable tag: 4.0.3
+Stable tag: 4.0.4
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -24,6 +24,9 @@ Yes, this theme is tested with latest version of WordPress, you can use it for y
 
 == Changelog ==
 = Theme Name NovelPro Responsive Theme=
+
+Version: 4.0.4
+* Block Typography Added.
 
 Version: 4.0.3
 * Theme Review.
