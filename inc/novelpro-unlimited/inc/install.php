@@ -94,7 +94,9 @@ function novelpro_unlimited_add_widget_custom_classes() {
             // Add Foundation columns
             $widget_classes .= ' widget';
             // Save new classes into global $wp_registered_widgets
+            if ($widget_classes) {
             $wp_registered_widgets[$widget_id]['classname'] .= $widget_classes;
+            }
             }
         }
     }

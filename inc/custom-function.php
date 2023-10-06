@@ -333,7 +333,7 @@ function NovelPro_thumbnail_resize($attach_id = null, $img_url = null, $width=''
     return $vt_image;
 }
 /*hexa to rgba convert*/
-function hex2rgba($color, $opacity = false) {
+function novelpro_hex2rgba($color, $opacity = false) {
  
  $default = 'rgb(0,0,0,0)';
  
