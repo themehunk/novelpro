@@ -244,10 +244,10 @@ background: <?php echo $slider_btn_bg_color; ?>;
 .button-two .theme-slider-button:hover{
 color:<?php echo $slider_btn_txt_hvr_color; ?>;
 background: <?php echo $slider_btn_bg_hover_color; ?>;	
--webkit-box-shadow: 0 14px 26px -12px <?php echo hex2rgba($slider_btn_bg_hover_color,0.42); ?>, 
-0 4px 23px 0 <?php echo hex2rgba($slider_btn_bg_hover_color,0.12); ?>, 
-0 8px 10px -5px <?php echo hex2rgba($slider_btn_bg_hover_color,0.2); ?>;
-box-shadow: 0 14px 26px -12px <?php echo hex2rgba($slider_btn_bg_hover_color,0.42); ?>, 0 4px 23px 0 <?php echo hex2rgba($slider_btn_bg_hover_color,0.12); ?>, 0 8px 10px -5px <?php echo hex2rgba($slider_btn_bg_hover_color,0.2); ?>;
+-webkit-box-shadow: 0 14px 26px -12px <?php echo novelpro_hex2rgba($slider_btn_bg_hover_color,0.42); ?>, 
+0 4px 23px 0 <?php echo novelpro_hex2rgba($slider_btn_bg_hover_color,0.12); ?>, 
+0 8px 10px -5px <?php echo novelpro_hex2rgba($slider_btn_bg_hover_color,0.2); ?>;
+box-shadow: 0 14px 26px -12px <?php echo novelpro_hex2rgba($slider_btn_bg_hover_color,0.42); ?>, 0 4px 23px 0 <?php echo novelpro_hex2rgba($slider_btn_bg_hover_color,0.12); ?>, 0 8px 10px -5px <?php echo novelpro_hex2rgba($slider_btn_bg_hover_color,0.2); ?>;
 }
 /*** three-button **/
 .button-three .theme-slider-button{
@@ -317,10 +317,10 @@ background: <?php echo $slider_btn2_bg_color; ?>;
 .button-two-2 .theme-slider-button2:hover{
 color:<?php echo $slider_btn2_txt_hvr_color; ?>;
 background: <?php echo $slider_btn2_bg_hover_color; ?>;	
--webkit-box-shadow: 0 14px 26px -12px <?php echo hex2rgba($slider_btn2_bg_hover_color,0.42); ?>, 
-0 4px 23px 0 <?php echo hex2rgba($slider_btn2_bg_hover_color,0.12); ?>, 
-0 8px 10px -5px <?php echo hex2rgba($slider_btn2_bg_hover_color,0.2); ?>;
-box-shadow: 0 14px 26px -12px <?php echo hex2rgba($slider_btn2_bg_hover_color,0.42); ?>, 0 4px 23px 0 <?php echo hex2rgba($slider_btn2_bg_hover_color,0.12); ?>, 0 8px 10px -5px <?php echo hex2rgba($slider_btn2_bg_hover_color,0.2); ?>;
+-webkit-box-shadow: 0 14px 26px -12px <?php echo novelpro_hex2rgba($slider_btn2_bg_hover_color,0.42); ?>, 
+0 4px 23px 0 <?php echo novelpro_hex2rgba($slider_btn2_bg_hover_color,0.12); ?>, 
+0 8px 10px -5px <?php echo novelpro_hex2rgba($slider_btn2_bg_hover_color,0.2); ?>;
+box-shadow: 0 14px 26px -12px <?php echo novelpro_hex2rgba($slider_btn2_bg_hover_color,0.42); ?>, 0 4px 23px 0 <?php echo novelpro_hex2rgba($slider_btn2_bg_hover_color,0.12); ?>, 0 8px 10px -5px <?php echo novelpro_hex2rgba($slider_btn2_bg_hover_color,0.2); ?>;
 }
 /*** three-button-2 **/
 .button-three-2 .theme-slider-button2{
