@@ -4,9 +4,9 @@ Theme URI: www.themehunk.com/product/novelpro-single-page-theme/
 Author: The ThemeHunk Team 
 Author URI: www.themehunk.com 
 Description: The NovelPro Theme for WordPress is simple and beautiful with lots of customization options that can tweaked by customize Panel like logos, intro texts, multiple useful sections, section ordering, background image, color and overlay. NovelPro Theme supports Six widget areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images for posts and pages). It contain drag and drop section ordering, WooCommerce compatible. 
-Version: 4.0.5
+Version: 4.0.6
 Requires at least: 5.0
-Tested up to: 6.3.1
+Tested up to: 6.6
 Requires PHP: 5.4
 License: GNU General Public License v2 or later
 License URI: license.txt 
@@ -103,7 +103,6 @@ display:none;
 body{
 overflow-x:hidden;
 font-family: 'Open Sans', sans-serif;
-height:600px;
 -webkit-overflow-scrolling: touch;
 height:auto!important;
 }

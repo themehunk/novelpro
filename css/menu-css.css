@@ -164,7 +164,7 @@ background:#fec503;
 }
 @media screen and (max-width: 480px){
 a#pull:after {
-right:15px!important;
+right:21px!important;
 }
 .col-center a#pull:after {
 right:0px!important;
@@ -240,7 +240,6 @@ color:#000;
           font-weight: 600;
       color:#fff;
       position:relative;
-       top:10px;
        right: 10px; 
    }
 	.navbar-default.navbar-shrink a#pull:after {

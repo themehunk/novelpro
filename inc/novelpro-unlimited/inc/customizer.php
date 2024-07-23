@@ -88,7 +88,7 @@ $wp_customize->add_setting('rtl', array(
     ) );
  // SITE COLOR OPTION   
  $wp_customize->add_section('site_color', array(
-        'title'    => __('Global Color Settings', 'novellite'),
+        'title'    => __('Global Color Settings', 'novelpro'),
         'priority' => 2,
         'panel'  => 'theme_optn',
 ));   
@@ -134,7 +134,7 @@ $wp_customize->add_setting('footer_bg_color', array(
     $wp_customize, 
     'footer_bg_color', 
     array(
-        'label'      => __( 'Footer Background Color', 'novellite' ),
+        'label'      => __( 'Footer Background Color', 'novelpro' ),
         'section'    => 'site_color',
         'settings'   => 'footer_bg_color',
     ) ) );  
@@ -149,7 +149,7 @@ $wp_customize->add_setting('footer_info_bg_color', array(
     $wp_customize, 
     'footer_info_bg_color', 
     array(
-        'label'      => __( 'Copyright Background Color', 'novellite' ),
+        'label'      => __( 'Copyright Background Color', 'novelpro' ),
         'section'    => 'site_color',
         'settings'   => 'footer_info_bg_color',
     ) ) ); 
@@ -164,7 +164,7 @@ $wp_customize->add_setting('copyright_txt_color', array(
     $wp_customize, 
     'copyright_txt_color', 
     array(
-        'label'      => __( 'Copyright Text Color', 'novellite' ),
+        'label'      => __( 'Copyright Text Color', 'novelpro' ),
         'section'    => 'site_color',
         'settings'   => 'copyright_txt_color',
     ) ) );
@@ -180,7 +180,7 @@ $wp_customize->add_setting('social_icon_color', array(
     $wp_customize, 
     'social_icon_color', 
     array(
-        'label'      => __( 'Social Icon Color', 'novellite' ),
+        'label'      => __( 'Social Icon Color', 'novelpro' ),
         'section'    => 'site_color',
         'settings'   => 'social_icon_color',
     ) ) );
